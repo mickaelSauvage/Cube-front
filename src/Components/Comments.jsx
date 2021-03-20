@@ -4,7 +4,7 @@ import Comment from './Comment';
 const Comments = ()=>{
 
     return(
-        <div>
+        <div className="col-start-1 row-start-10">
             <h4><b>Lire les commentaires</b></h4>
             <br/><br/>
             <Comment />
