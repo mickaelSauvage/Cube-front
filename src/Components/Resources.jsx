@@ -22,7 +22,7 @@ const Resources = () => {
 
         return (
             <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg bg-gray-50">
-                <button type="button" className="col-start-2 row-start-1 row-end-1 border-2 border-gray-150" onClick={() =>setStatus("false")}>Retour</button>
+                <button type="button" className="col-span-2 col-start-2 row-start-1 row-end-1 bg-gray-200 border-2 border-gray-200 hover:border-2 hover:border-black" onClick={() =>setStatus("false")}>Retour</button>
                 <ResourceDetails res = {Resource} />
            </div> 
         )

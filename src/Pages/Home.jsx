@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
 
-        <div className="grid grid-cols-10 gap-4 bg-gray-100">
+        <div className="grid grid-cols-10 gap-4 bg-gray-800">
             <Header />
             <Resources />
             <Footer />

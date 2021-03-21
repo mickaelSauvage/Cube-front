@@ -6,19 +6,19 @@ const Header = () => {
 
     return (
 
-    <header className="grid col-span-10 p-3 mb-16 text-white bg-black border-2 grid-col-10 h-30">
+    <header className="grid grid-cols-10 col-span-10 p-3 mt-4 mb-16 bg-gray-50 h-30">
         
-            <div>
-                <Link className="cursor-pointer" to="/">Vous aimez les défis?</Link>
+            <div className="col-start-1">
+                Vous aimez les défis?
             </div>
-            <div>
+            <div className="col-start-3">
                 Vous allez être servi
             </div>
             <div className="col-start-5">
-                <img src ="https://www.pngfactory.net/_png/_1615849202/13194-sparkweb-ACDClogo.png" alt="ceci la" ></img>
+            <Link to="/"><img className="cursor-pointer" src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="ceci la" ></img></Link>
             </div>
-            <div className="col-start-9">
-                <Link className ="hover:text-blue-500 hover:underline" to="/Login">Connexion</Link>
+            <div className="col-start-10">
+                <Link className ="p-2 text-white bg-black border-2 hover:text-blue-500 hover:underline" to="/Login">Connexion</Link>
             </div>
         
     </header>

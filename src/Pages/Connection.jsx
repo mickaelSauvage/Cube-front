@@ -6,7 +6,7 @@ import Footer from "../Components/Footer";
 const Connection = () => {
 
 return(
-    <div>
+    <div className="grid grid-cols-10 gap-4 bg-gray-800">
         <Header />
         <Login />
         <Footer />
