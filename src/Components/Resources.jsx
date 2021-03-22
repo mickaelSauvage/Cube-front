@@ -33,7 +33,7 @@ const Resources = () => {
             <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg bg-gray-50">
                 {
                     ResourcesList.map(resource => (
-                    <div key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 border-4 rounded-lg cursor-pointer border-gray-50 hover:border-gray-800 grid-rows-8 bg-gradient-to-r from-yellow-500 to-gray-50" onClick={() => {detailResource(resource)}}>
+                    <div key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 border-4 rounded-lg cursor-pointer border-gray-50 hover:border-gray-800 grid-rows-8 bg-gradient-to-r from-yellow-500 to-yellow-800" onClick={() => {detailResource(resource)}}>
                         <div className="col-start-1 row-start-1">
                             <b>Défi  {resource.title}</b>
                         </div>

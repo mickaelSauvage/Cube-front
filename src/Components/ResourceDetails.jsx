@@ -12,7 +12,7 @@ const ResourceDetails = (props) => {
     
     return (
         
-        <div className="grid grid-cols-2 col-span-2 col-start-2 row-start-2 p-2 border-2 border-black bg-gradient-to-r from-yellow-500 to-gray-50">
+        <div className="grid grid-cols-2 col-span-2 col-start-2 row-start-2 p-2 border-2 border-black bg-gradient-to-r from-yellow-500 to-yellow-800">
             {
                 Res.map(resource => (
                     <div key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-1" >
@@ -45,7 +45,7 @@ const ResourceDetails = (props) => {
                             <img src ="https://www.rockurlife.net/wp-content/uploads/2020/05/97410831_3017338285026471_1455400288734150656_n.jpg" alt="ceci la" ></img>
                         </div>
                         <div>
-                            <button type="button" className ="bg-gray-200 border-black border-1">Démarrer le défi</button>
+                            <button type="button" className ="col-start-2 p-2 bg-gray-200 border-black rounded border-1">Démarrer le défi</button>
                         </div>
                         <CreateComm />
                         
