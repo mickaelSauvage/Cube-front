@@ -5,7 +5,12 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      ringWidth: ['hover', 'active'],
+      ringColor: ['hover', 'active'],
+      ringOffsetWidth: ['hover', 'active'],
+      ringOffsetColor: ['hover', 'active']
+    },
   },
   plugins: [],
 }

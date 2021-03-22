@@ -45,7 +45,7 @@ const ResourceDetails = (props) => {
                             <img src ="https://www.rockurlife.net/wp-content/uploads/2020/05/97410831_3017338285026471_1455400288734150656_n.jpg" alt="ceci la" ></img>
                         </div>
                         <div>
-                            <button type="button" className ="col-start-2 p-2 bg-gray-200 border-black rounded border-1">Démarrer le défi</button>
+                            <button type="button" className ="col-start-2 p-2 bg-gray-200 border-black rounded hover:ring-offset-gray-200 hover:ring-offset-2 hover:ring-black hover:ring-2 border-1">Démarrer le défi</button>
                         </div>
                         <CreateComm />
                         
