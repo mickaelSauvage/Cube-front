@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
 
-    <header className="grid grid-cols-10 col-span-10 p-3 mb-16 bg-gray-50 h-30">
+    <header className="fixed grid grid-cols-10 col-span-10 p-3 mb-16 bg-gray-50 h-30">
         
             <div className="col-start-1">
                 Vous aimez les défis?

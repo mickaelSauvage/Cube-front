@@ -12,10 +12,10 @@ const ResourceDetails = (props) => {
     
     return (
         
-        <div className="grid grid-cols-2 col-span-2 col-start-2 row-start-2 p-2 border-2 border-black bg-gradient-to-r from-yellow-500 to-yellow-800">
+        <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg mt-52 bg-gray-50">
             {
                 Res.map(resource => (
-                    <div key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-1" >
+                    <div key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 p-2 m-4 border-2 border-black bg-gradient-to-r from-yellow-500 to-yellow-800" >
                         <div className="col-start-1 row-start-1">
                             <b>Défi  {resource.title}</b>
                         </div>

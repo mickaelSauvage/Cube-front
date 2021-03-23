@@ -1,39 +1,18 @@
-import React , { useState }from 'react';
+import React from 'react';
 import { getResources } from '../Objects/ResourcesList'
-import ResourceDetails from './ResourceDetails'
-//import './Resources.css';
+import { Link } from 'react-router-dom';
 
 const Resources = () => {
 
-    //const [ResourcesList, setResourcesList] = useState(getResources());
+
     const ResourcesList = getResources();
-    const [Resource, setResource] = useState();
-    const [Status, setStatus] = useState('false');
-
-    const detailResource = (resource) => {
-
-        setResource(resource);
-        setStatus("true");
-        
-
-    }
-
-    if (Status === "true") {
 
         return (
-            <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg bg-gray-50">
-                <button type="button" className="col-span-2 col-start-2 row-start-1 row-end-1 bg-gray-200 border-2 border-gray-200 hover:border-2 hover:border-black" onClick={() =>setStatus("false")}>Retour</button>
-                <ResourceDetails res = {Resource} />
-           </div> 
-        )
-    }
-    else {
-        return (
 
-            <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg bg-gray-50">
+            <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg mt-52 bg-gray-50">
                 {
                     ResourcesList.map(resource => (
-                    <div key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 border-4 rounded-lg cursor-pointer border-gray-50 hover:border-gray-800 grid-rows-8 bg-gradient-to-r from-yellow-500 to-yellow-800" onClick={() => {detailResource(resource)}}>
+                    <Link key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 border-4 rounded-lg cursor-pointer border-gray-50 hover:border-gray-800 grid-rows-8 bg-gradient-to-r from-yellow-500 to-yellow-800" to={{pathname:"/Defi/" + resource._id, state:{res : resource}}}>
                         <div className="col-start-1 row-start-1">
                             <b>Défi  {resource.title}</b>
                         </div>
@@ -62,13 +41,14 @@ const Resources = () => {
                         <div className="col-start-2 row-span-6 row-start-1">
                             <img src ="https://www.rockurlife.net/wp-content/uploads/2020/05/97410831_3017338285026471_1455400288734150656_n.jpg" alt="ceci la" ></img>
                         </div>
-                    </div>
+                    
+                    </Link>
                 
                 ))}
         </div>
 
         );
-    }
+    
 
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import Resources from "../Components/Resources";
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import '../index.css';
+
 
 const Home = () => {
 
