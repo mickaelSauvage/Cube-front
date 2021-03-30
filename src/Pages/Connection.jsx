@@ -7,7 +7,7 @@ const Connection = () => {
 
 return(
     <div className="grid grid-cols-10 gap-4 bg-gray-300">
-        <Header />
+        <Header logged ={false} />
         <Login />
         <Footer />
     </div>

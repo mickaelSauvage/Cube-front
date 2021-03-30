@@ -9,6 +9,7 @@ import CreateComm from './CreateComment'
 const ResourceDetails = (props) => {
 
     const Res = [props.res];
+    const connected = [props.logged];
     
     return (
         

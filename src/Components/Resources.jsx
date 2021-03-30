@@ -2,17 +2,23 @@ import React from 'react';
 import { getResources } from '../Objects/ResourcesList'
 import { Link } from 'react-router-dom';
 
-const Resources = () => {
+const Resources = (props) => {
 
-
+    const connected = props.logged;
     const ResourcesList = getResources();
 
         return (
 
             <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg mt-52 bg-gray-50">
+                <select className ="col-span-2 col-start-2 row-start-1 pl-64 mt-4 bg-gray-200 border-black rounded hover:ring-offset-gray-200 hover:ring-offset-2 hover:ring-black hover:ring-2 border-1" name="filtrer" id="filtre-select">
+                    <option value="">Filtrer par</option>
+                    <option value="TypeRelation">Type de relation</option>
+                    <option value="Difficulte">Difficulté</option>
+                    <option value="Avis">Avis utilisateurs</option>
+                </select>
                 {
                     ResourcesList.map(resource => (
-                    <Link key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 border-4 rounded-lg cursor-pointer border-gray-50 hover:border-gray-800 grid-rows-8 bg-gradient-to-r from-yellow-500 to-yellow-800" to={{pathname:"/Defi/" + resource._id, state:{res : resource}}}>
+                    <Link key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 border-4 rounded-lg cursor-pointer border-gray-50 hover:border-gray-800 grid-rows-8 bg-gradient-to-r from-yellow-500 to-yellow-800" to={{pathname:"/Defi/" + resource._id, state:{res : resource, connect : connected}}}>
                         <div className="col-start-1 row-start-1">
                             <b>Défi  {resource.title}</b>
                         </div>
