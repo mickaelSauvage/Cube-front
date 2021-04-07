@@ -9,10 +9,13 @@ const Resources = (props) => {
 
         return (
 
-            <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg mt-52 bg-gray-50">
-                <select className ="col-span-2 col-start-2 row-start-1 pl-64 mt-4 bg-gray-200 border-black rounded hover:ring-offset-gray-200 hover:ring-offset-2 hover:ring-black hover:ring-2 border-1" name="filtrer" id="filtre-select">
-                    <option value="">Filtrer par</option>
+            <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg bg-gray-50">
+                <select className ="col-start-2 row-start-1 mt-4 bg-gray-200 border-black rounded hover:ring-offset-gray-200 hover:ring-offset-2 hover:ring-black hover:ring-2 border-1" name="filtrer" id="filtre-select">
+                    <option value="">Filtrer</option>
                     <option value="TypeRelation">Type de relation</option>
+                </select>
+                <select className ="col-start-3 row-start-1 mt-4 bg-gray-200 border-black rounded hover:ring-offset-gray-200 hover:ring-offset-2 hover:ring-black hover:ring-2 border-1" name="trier" id="trie-select">
+                    <option value="">Trier</option>
                     <option value="Difficulte">Difficulté</option>
                     <option value="Avis">Avis utilisateurs</option>
                 </select>
@@ -33,7 +36,7 @@ const Resources = (props) => {
                         </div>
                         <div className="col-start-1 row-start-5">
                                 
-                            <b>Type de relation :</b>
+                            <b>Réalisable avec :</b>
                         </div>  
                         <div className="col-start-1 row-start-6">     
                             {resource.relationType}

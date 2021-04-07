@@ -8,7 +8,7 @@ const Login = () => {
 
     return (
       
-      <div className="grid grid-cols-3 col-span-8 col-start-2 gap-4 p-10 border-0 rounded-lg mt-52 bg-gray-50">
+      <div className="grid grid-cols-3 col-span-8 col-start-2 gap-4 p-10 border-0 rounded-lg bg-gray-50">
 
         <div className="col-start-2 row-start-1">
           <h1><b>Connectez-vous</b></h1><br />

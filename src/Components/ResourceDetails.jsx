@@ -13,7 +13,7 @@ const ResourceDetails = (props) => {
     
     return (
         
-        <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg mt-52 bg-gray-50">
+        <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4 border-0 rounded-lg bg-gray-50">
             {
                 Res.map(resource => (
                     <div key = {resource._id} className="grid grid-cols-2 col-span-2 col-start-2 p-2 m-4 border-2 border-black bg-gradient-to-r from-yellow-500 to-yellow-800" >
@@ -31,7 +31,7 @@ const ResourceDetails = (props) => {
                         </div>
                         <div className="col-start-1 row-start-5">
                                 
-                            <b>Type de relation :</b>
+                            <b>Réalisable avec :</b>
                         </div>  
                         <div className="col-start-1 row-start-6">     
                             {resource.relationType}
