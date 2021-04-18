@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 
 
 const Header = (props) => {
 
     const connected = props.logged;
-    console.log(connected);
+    const [menuDisplay, setMenuDisplay] = useState("invisible p-2 text-center text-white bg-black hover:bg-blue-600");
+    const showMenu = ()=>{
+        setMenuDisplay("visible p-2 text-center text-white bg-black hover:bg-blue-600");
+    }
+    const hideMenu = ()=>{
+        setMenuDisplay("invisible p-2 text-center text-white bg-black hover:bg-blue-600");
+    }
 
     if (connected === false) {
         return (
@@ -37,10 +43,16 @@ const Header = (props) => {
                 <div className="col-start-5">
                 <Link to={{pathname:"/", state:{connect : connected}}}><img className="cursor-pointer" src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="ceci la" ></img></Link>
                 </div>
-                <div className="grid col-start-10 grid-rows-3 row-start-1">
-                    <span>John Doe</span>
-                    <Link className="row-start-2" to={{pathname:"/", state:{connect : false}}}>Déconnexion</Link>
-                </div>
+                {/*<div className="grid col-start-10 grid-rows-3 row-start-1">*/}
+                    <nav className="col-start-10" onMouseOver= {()=>{showMenu()}} onMouseLeave={()=>{hideMenu()}}>
+                        <ul>
+                            <li className="p-2 text-center text-white bg-black hover:bg-blue-600">Menu</li>
+                            <li className={menuDisplay}>Carte créer</li>
+                            <li className={menuDisplay}><Link to={{pathname:"/", state:{connect : false}}}>Déconnexion</Link></li>
+                        </ul>
+                    </nav>
+                    
+                {/*</div>*/}
                 
             
             </header>);

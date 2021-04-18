@@ -1,4 +1,4 @@
-const resources = [
+/*const resources = [
     {
       _id: "5b21ca3eeb7f6fbccd471815",
       title: "Terminator",
@@ -23,8 +23,5 @@ const resources = [
       relationType: "Inconnue",
       userReview : "3.0"
     }
-  ];
+  ];*/
   
-  export function getResources() {
-    return resources;
-  }

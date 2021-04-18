@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 const Defi = () => {
 
     let location = useLocation();
-    console.log(location.state.connect);
+    //console.log(location.state.connect);
     function verifConnect () {
 
     
