@@ -3,8 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {backgroundImage: theme => ({
-      'blue-top': "url('./Images/luxury-nav.jpg')"
+      'body': "url('./Images/backgrounds/background-fiche-defi-2.svg')",
+      'trie': "url('./Images/icons/sort.svg')",
+      'form': "url('./Images/backgrounds/bg-form.svg')",
      })},
+    
   },
   variants: {
     extend: {

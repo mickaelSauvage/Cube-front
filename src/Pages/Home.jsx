@@ -21,7 +21,7 @@ const Home = () => {
     }
     return (
 
-        <div className="grid grid-cols-10 gap-4 bg-gray-300">
+        <div className="grid grid-cols-10 gap-4 bg-no-repeat bg-cover bg-body">
             <Header logged = {verifConnect()} />
             <Resources logged = {verifConnect()} />
             <Footer />
