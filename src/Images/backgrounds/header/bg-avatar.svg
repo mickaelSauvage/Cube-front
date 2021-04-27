@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="151.594" viewBox="0 0 360 151.594">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7b4fff;
+        fill-opacity: 0;
+        fill-rule: evenodd;
+        opacity: 0.5;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-563.938" y="-940.812" width="1395.782" height="1092.406" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="9.487" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="bg-header_copie" data-name="bg-header copie" class="cls-1" d="M831.828-224.413L-333.367-940.8q-115.284,187.468-230.57,374.937c388.368,238.989,734.977,740.05,1165.15,716.679Q716.566-37.089,831.828-224.413Z"/>
+</svg>

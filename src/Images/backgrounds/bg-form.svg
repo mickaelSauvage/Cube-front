@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg888"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="bg-form.svg">
+  <defs
+     id="defs882">
+    <filter
+       id="filter"
+       x="-603"
+       y="-426"
+       width="1428"
+       height="748.96899"
+       filterUnits="userSpaceOnUse">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="9.487"
+         in="SourceAlpha"
+         id="feGaussianBlur59" />
+      <feFlood
+         result="flood"
+         flood-opacity="0.2"
+         id="feFlood61" />
+      <feComposite
+         result="composite"
+         operator="out"
+         in2="blur"
+         id="feComposite63" />
+      <feOffset
+         result="offset"
+         id="feOffset65" />
+      <feComposite
+         result="composite-2"
+         operator="in"
+         in2="SourceAlpha"
+         id="feComposite67" />
+      <feBlend
+         result="blend"
+         mode="multiply"
+         in2="SourceGraphic"
+         id="feBlend69" />
+    </filter>
+    <filter
+       id="filter-2"
+       x="-603"
+       y="-426"
+       width="1885.3535"
+       height="555.74487"
+       filterUnits="userSpaceOnUse">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="9.487"
+         in="SourceAlpha"
+         id="feGaussianBlur59-6" />
+      <feFlood
+         result="flood"
+         flood-opacity="0.2"
+         id="feFlood61-6" />
+      <feComposite
+         result="composite"
+         operator="out"
+         in2="blur"
+         id="feComposite63-8" />
+      <feOffset
+         result="offset"
+         id="feOffset65-1" />
+      <feComposite
+         result="composite-2"
+         operator="in"
+         in2="SourceAlpha"
+         id="feComposite67-0" />
+      <feBlend
+         result="blend"
+         mode="multiply"
+         in2="SourceGraphic"
+         id="feBlend69-8" />
+    </filter>
+    <filter
+       id="filter-28"
+       x="-603"
+       y="-426"
+       width="1428"
+       height="748.96899"
+       filterUnits="userSpaceOnUse">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="9.487"
+         in="SourceAlpha"
+         id="feGaussianBlur59-2" />
+      <feFlood
+         result="flood"
+         flood-opacity="0.2"
+         id="feFlood61-3" />
+      <feComposite
+         result="composite"
+         operator="out"
+         in2="blur"
+         id="feComposite63-87" />
+      <feOffset
+         result="offset"
+         id="feOffset65-0" />
+      <feComposite
+         result="composite-2"
+         operator="in"
+         in2="SourceAlpha"
+         id="feComposite67-8" />
+      <feBlend
+         result="blend"
+         mode="multiply"
+         in2="SourceGraphic"
+         id="feBlend69-4" />
+    </filter>
+    <filter
+       id="filter-2-5"
+       x="-603"
+       y="-426"
+       width="1428"
+       height="748.96899"
+       filterUnits="userSpaceOnUse">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="9.487"
+         in="SourceAlpha"
+         id="feGaussianBlur59-6-3" />
+      <feFlood
+         result="flood"
+         flood-opacity="0.2"
+         id="feFlood61-6-2" />
+      <feComposite
+         result="composite"
+         operator="out"
+         in2="blur"
+         id="feComposite63-8-0" />
+      <feOffset
+         result="offset"
+         id="feOffset65-1-4" />
+      <feComposite
+         result="composite-2"
+         operator="in"
+         in2="SourceAlpha"
+         id="feComposite67-0-9" />
+      <feBlend
+         result="blend"
+         mode="multiply"
+         in2="SourceGraphic"
+         id="feBlend69-8-9" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="248.05338"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1438"
+     inkscape:window-height="861"
+     inkscape:window-x="15"
+     inkscape:window-y="64"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata885">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="bg-header_copie_2"
+       data-name="bg-header copie 2"
+       class="cls-1"
+       d="M 374.5875,552.63169 -9.5634769,572.22643 C -12.140148,410.10533 -7.3378844,175.85061 -9.9147732,13.729533 132.81401,154.25631 238.79203,-334.41166 359.43884,-117.37271 c 2.54537,162.424317 12.56134,507.98364 15.14866,670.0044 z"
+       style="fill:#ece9e8;fill-opacity:1;fill-rule:evenodd;stroke-width:0.60048"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="bg-header"
+       class="cls-1"
+       d="M -572.83509,-233.24392 713.50886,-528.51103 c 29.138,143.79 58.277,287.58033 87.417,431.370997 -446.9,90.690003 -944.81299,441.799003 -1340.65,271.783003 -29.08133,-144.076669 -3.95495,-264.194221 -33.11095,-407.88689 z"
+       style="fill:#7a4dfe;fill-opacity:1;fill-rule:evenodd;filter:url(#filter-28)"
+       transform="matrix(0.26835392,0,0,0.26419474,131.13059,16.306396)"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="bg-header-9"
+       class="cls-1"
+       d="M -572.83509,-233.24392 713.50886,-528.51103 c 29.138,143.79 58.277,287.58033 87.417,431.370997 -446.9,90.690003 -906.677,446.087263 -1302.51401,276.071263 -29.08133,-144.076668 -42.09094,-268.482481 -71.24694,-412.17515 z"
+       style="fill:#7a4dfe;fill-opacity:1;fill-rule:evenodd;filter:url(#filter-2-5)"
+       transform="matrix(-0.12470381,-0.02411986,-0.04148812,0.21450066,178.82109,-26.322856)"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
