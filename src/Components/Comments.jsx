@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import Comment from './Comment';
 import Client from '../Api/Client.js';
 
 const Comments = (props)=>{
@@ -27,7 +26,7 @@ const Comments = (props)=>{
                 <div key= {comm["date du comm"]}>
                 <label>Anonyme - {comm["date du comm"]}</label>
                 <br></br>
-                <textarea name="commentaire" rows="5" cols="33" value={comm.commentaire} disabled="disabled"></textarea>
+                <textarea name="commentaire" className="bg-white" rows="5" cols="33" value={comm.commentaire} disabled="disabled"></textarea>
             </div>
             ))}
         </div>

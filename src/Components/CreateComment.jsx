@@ -27,7 +27,7 @@ const CreateComm = (props)=> {
         <div className="col-start-1 mb-4 row-start-9">
             <label>Ecrire un commentaire</label><br />
             <textarea id="commentaire" rows="5" cols="33" onChange={getComm}></textarea><br />
-            <button type="button" className ="p-1 bg-gray-200 border-black hover:ring-2 hover:ring-black border-1" onClick={()=>{newComm()}}>Envoyer</button>
+            <button type="button" className ="w-2/4 p-1 m-2 bg-indigo-900 border-2 rounded-lg cursor-pointer text-gray-50 border-1" onClick={()=>{newComm()}}>Envoyer</button>
         </div>
         
     )

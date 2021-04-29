@@ -23,7 +23,7 @@ const Defi = () => {
 
     return (
 
-        <div className="grid grid-cols-10 gap-4 bg-gray-300">
+        <div className="grid grid-cols-10 gap-4 bg-no-repeat bg-cover bg-form">
             <Header logged = {verifConnect()} />
             <ResourceDetails res = {location.state.res} logged = {verifConnect()} />
             <Footer />

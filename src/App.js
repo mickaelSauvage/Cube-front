@@ -5,6 +5,8 @@ import Defi from './Pages/Defi';
 import Favoris from './Pages/Favoris';
 import Compte from './Pages/Compte';
 import Badges from './Pages/Badges';
+import Inscription from './Pages/Inscription';
+import DefiCreation from './Pages/DefiCreation';
 import { Route, Switch } from 'react-router-dom';
 class App extends React.Component {
 
@@ -20,6 +22,8 @@ class App extends React.Component {
           <Route path = "/Favoris" component = {Favoris} />
           <Route path = "/Compte" component = {Compte} />
           <Route path = "/Badges" component = {Badges} />
+          <Route path = "/Inscription" component = {Inscription} />
+          <Route path = "/DefiCreation" component = {DefiCreation} />
         </Switch>
       </main>
     )

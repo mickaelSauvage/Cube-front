@@ -24,11 +24,16 @@ const Header = (props) => {
                    <p className="font-bold text-indigo-900"> (Re)Connecter les gens</p>
                 </div>
                 <div className="col-start-5">
-                <Link to={{pathname:"/", state:{connect : connected}}}><img className="cursor-pointer" src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="logo profile" ></img></Link>
+                <img src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="logo profile" ></img>
                 </div>
-                <div className="grid col-start-10 grid-rows-3">
-                    <Link className ="row-start-1 p-2 text-center text-white bg-black hover:bg-blue-600" to="/Login">Connexion</Link>
-                </div>
+                <nav className="col-start-10" onMouseOver= {()=>{showMenu()}} onMouseLeave={()=>{hideMenu()}}>
+                        <ul>
+                            <li className="p-2 text-center text-white bg-black hover:bg-blue-600">Menu</li>
+                            <li className={menuDisplay}><Link to={{pathname:"/", state:{connect : false}}}>Accueil</Link></li>
+                            <li className={menuDisplay}><Link to="/Login">Connexion</Link></li>
+                            <li className={menuDisplay}><Link to="/Inscription">Inscription</Link></li>
+                        </ul>
+                </nav>
             
             </header>);
 
@@ -44,14 +49,14 @@ const Header = (props) => {
                    <p className="font-bold text-indigo-900"> (Re)Connecter les gens</p>
                 </div>
                 <div className="col-start-5">
-                <Link to={{pathname:"/", state:{connect : connected}}}><img className="cursor-pointer" src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="ceci la" ></img></Link>
+                <img src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="ceci la" ></img>
                 </div>
-                {/*<div className="grid col-start-10 grid-rows-3 row-start-1">*/}
                     <nav className="col-start-10" onMouseOver= {()=>{showMenu()}} onMouseLeave={()=>{hideMenu()}}>
                         <ul>
                             <li className="p-2 text-center text-white bg-black hover:bg-blue-600">Menu</li>
+                            <li className={menuDisplay}><Link to={{pathname:"/", state:{connect : true}}}>Accueil</Link></li>
                             <li className={menuDisplay}><Link to={{pathname:"/Compte", state:{connect : true}}}>Mon compte</Link></li>
-                            <li className={menuDisplay}>Carte créée</li>
+                            <li className={menuDisplay}><Link to={{pathname:"/DefiCreation", state:{connect : true}}}>Créer un défi</Link></li>
                             <li className={menuDisplay}><Link to={{pathname:"/Favoris", state:{connect : true}}}>Favoris</Link></li>
                             <li className={menuDisplay}><Link to={{pathname:"/Badges", state:{connect : true}}}>Mes badges</Link></li>
                             <li className={menuDisplay}><Link to={{pathname:"/", state:{connect : false}}}>Déconnexion</Link></li>
