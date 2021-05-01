@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import sword from '../Images/icons//sword.svg';
+import sword from '../Images/icons//sword.png';
+import user from '../Images/icons/user.svg';
 
 
 const Header = (props) => {
@@ -23,8 +24,8 @@ const Header = (props) => {
                    <img src={sword} className="inline-block pb-3 ml-3" alt="icone épée" width="30" height="30" />
                    <p className="font-bold text-indigo-900"> (Re)Connecter les gens</p>
                 </div>
-                <div className="col-start-5">
-                <img src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="logo profile" ></img>
+                <div className="col-span-2 col-start-5 pt-10 pl-28">
+                <img src ={user} width="70" height="70" alt="logo profile" ></img>
                 </div>
                 <nav className="col-start-10" onMouseOver= {()=>{showMenu()}} onMouseLeave={()=>{hideMenu()}}>
                         <ul>
@@ -48,8 +49,8 @@ const Header = (props) => {
                    <img src={sword} className="inline-block pb-3 ml-3" alt="icone épée" width="30" height="30" />
                    <p className="font-bold text-indigo-900"> (Re)Connecter les gens</p>
                 </div>
-                <div className="col-start-5">
-                <img src ="https://images.gamebanana.com/img/ico/sprays/acdc_png.png" alt="ceci la" ></img>
+                <div className="col-span-2 col-start-5 pt-10 pl-28">
+                <img src ={user} width="70" height="70" alt="ceci la" ></img>
                 </div>
                     <nav className="col-start-10" onMouseOver= {()=>{showMenu()}} onMouseLeave={()=>{hideMenu()}}>
                         <ul>

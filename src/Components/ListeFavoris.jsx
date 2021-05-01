@@ -28,7 +28,7 @@ const Fav = (props) => {
                 <div className="col-span-2 col-start-2 row-start-1 text-3xl font-bold text-center text-indigo-900">Mes défis favoris</div>
                 {
                     ResourcesList.map(resource => (
-                    <Link key = {resource.id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 bg-white border-4 rounded-lg cursor-pointer border-gray-50 hover:border-indigo-500 grid-rows-8" to={{pathname:"/Defi/" + resource.id, state:{res : resource, connect : connected, id : resource.id}}}>
+                    <div key = {resource.id} className="grid grid-cols-2 col-span-2 col-start-2 gap-4 p-8 mt-5 mb-5 bg-white border-4 border-white rounded-lg grid-rows-8">
                         <div className="col-start-1 row-start-1">
                             <b>Défi  {resource.title}</b>
                         </div>
@@ -65,11 +65,15 @@ const Fav = (props) => {
                             <img src ="https://www.rockurlife.net/wp-content/uploads/2020/05/97410831_3017338285026471_1455400288734150656_n.jpg" alt="ceci la" ></img>
                         </div>
                         <div className="col-span-2 text-center text-gray-500 row-start-8">
+                        <Link to={{pathname:"/Defi/" + resource.id, state:{res : resource, connect : connected, id : resource.id}}}><input type="button" className="w-3/5 p-2 border-2 rounded-lg cursor-pointer bg-btn text-gray-50" id='submit' size="30" value="Voir plus"/></Link>
+
+                        </div>
+                        <div className="col-span-2 text-center text-gray-500 row-start-8">
                             <img className="inline-block" src ={certificate} alt ="certificat" width="40" height="40"/>
                             <span>Menez à bien ce défi et obtenez le rang de Mini Capus</span>
                         </div>
                     
-                    </Link>
+                    </div>
                 
                 ))}
         </div>

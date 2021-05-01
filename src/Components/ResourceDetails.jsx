@@ -50,10 +50,10 @@ const ResourceDetails = (props) => {
                         </div>))
                         }        
                         <div className="col-start-2 row-span-6 row-start-1">
-                            <img src ="https://www.rockurlife.net/wp-content/uploads/2020/05/97410831_3017338285026471_1455400288734150656_n.jpg" alt="ceci la" ></img>
+                            <img src ="https://telfer.uottawa.ca/assets/images/2018/Career-Centre/Blog/_cache/1200x511/0_20_1200_530_relever-defi.jpg" alt="ceci la" ></img>
                         </div>
                         <div className="col-span-2 mt-8 mb-4 text-center text-gray-500 row-start-8">
-                        <input type="button" className="w-3/5 p-2 bg-indigo-900 border-2 rounded-lg cursor-pointer text-gray-50" id='submit' size="30" value="Démarrer le défi"/>
+                        <input type="button" className="w-3/5 p-2 border-2 rounded-lg cursor-pointer bg-btn text-gray-50" id='submit' size="30" value="Démarrer le défi"/>
 
                         </div>
                         <div className="col-span-2 mb-8 text-center text-gray-500 row-start-9">

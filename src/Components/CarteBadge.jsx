@@ -16,7 +16,7 @@ const CarteBadges = () => {
                 <span className="col-span-6 col-start-2 font-bold">Mini-capus</span><br/>
                 <span className="col-span-6 col-start-2 text-gray-500">Défi</span><br/>
                 <span className="col-span-6 col-start-2 font-bold text-indigo-900">Coffee</span><br/>
-                <input type="button" className="col-span-6 col-start-2 p-2 mt-4 mb-4 bg-indigo-900 border-2 rounded-lg cursor-pointer text-gray-50" id='submit' size="30" value="Revoir le défi"/>
+                <input type="button" className="col-span-6 col-start-2 p-2 mt-4 mb-4 border-2 rounded-lg cursor-pointer bg-btn text-gray-50" id='submit' size="30" value="Revoir le défi"/>
             </div>
 
         );

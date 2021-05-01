@@ -4,6 +4,7 @@ import Client from '../Api/Client.js';
 import certificate from '../Images/icons/rewards/017-certificate.svg';
 
 
+
 const Resources = (props) => {
 
     const connected = props.logged;
@@ -25,11 +26,11 @@ const Resources = (props) => {
         return (
 
             <div className="grid grid-cols-4 col-span-8 col-start-2 gap-4">
-                <select className ="col-start-2 row-start-1 mt-4 text-white bg-indigo-500 border-2 border-gray-300 rounded" name="filtrer" id="filtre-select">
+                <select className ="col-start-2 row-start-1 mt-4 text-white border-2 border-gray-300 rounded bg-btn" name="filtrer" id="filtre-select">
                     <option value="">Filtrer</option>
                     <option value="TypeRelation">Type de relation</option>
                 </select>
-                <select className ="col-start-3 row-start-1 mt-4 text-white bg-indigo-500 border-2 border-gray-300 rounded" name="trier" id="trie-select">
+                <select className ="col-start-3 row-start-1 mt-4 text-white border-2 border-gray-300 rounded bg-btn" name="trier" id="trie-select">
                     <option value="">Trier</option>
                     <option value="Difficulte">Difficulté</option>
                     <option value="Avis">Avis utilisateurs</option>
@@ -70,10 +71,10 @@ const Resources = (props) => {
                         </div>))
                         } 
                         <div className="col-start-2 row-span-6 row-start-1">
-                            <img src ="https://www.rockurlife.net/wp-content/uploads/2020/05/97410831_3017338285026471_1455400288734150656_n.jpg" alt="ceci la" ></img>
+                            <img src ="https://telfer.uottawa.ca/assets/images/2018/Career-Centre/Blog/_cache/1200x511/0_20_1200_530_relever-defi.jpg" alt="ceci la" ></img>
                         </div>
                         <div className="col-span-2 text-center text-gray-500 row-start-8">
-                        <Link to={{pathname:"/Defi/" + resource.id, state:{res : resource, connect : connected, id : resource.id}}}><input type="button" className="w-3/5 p-2 bg-indigo-900 border-2 rounded-lg cursor-pointer text-gray-50" id='submit' size="30" value="Voir plus"/></Link>
+                        <Link to={{pathname:"/Defi/" + resource.id, state:{res : resource, connect : connected, id : resource.id}}}><input type="button" className="w-3/5 p-2 border-2 rounded-lg cursor-pointer bg-btn text-gray-50" id='submit' size="30" value="Voir plus"/></Link>
 
                         </div>
                         <div className="col-span-2 text-center text-gray-500 row-start-9">

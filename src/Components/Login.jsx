@@ -20,7 +20,7 @@ const Login = () => {
           <input type="password" className="col-span-2 col-start-2 border-2 border-gray-200 rounded-lg bg-gray-50" size="30" placeholder="******" name="password" required/>
           <br/><br/>
           <Link to={{pathname:"/", state:{connect : true}}}>
-            <input type="button" className="w-1/2 col-span-2 col-start-2 p-2 bg-indigo-900 border-2 rounded-lg cursor-pointer text-gray-50" id='submit' value='Se connecter'/>
+            <input type="button" className="w-1/2 col-span-2 col-start-2 p-2 border-2 rounded-lg cursor-pointer bg-btn text-gray-50" id='submit' value='Se connecter'/>
           </Link>
         </form>
         

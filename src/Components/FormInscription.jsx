@@ -60,7 +60,7 @@ const FormInscription = () => {
                     <option value="agriculteur">Autres personnes sans activité professionnelle</option>
                     </select>
                     <br/><br/>
-                    <input type="button" className="w-3/12 p-2 bg-indigo-900 border-2 rounded-lg cursor-pointer text-gray-50" id='submit' size="30" value="Valider"/>
+                    <input type="button" className="w-3/12 p-2 border-2 rounded-lg cursor-pointer bg-btn text-gray-50" id='submit' size="30" value="Valider"/>
                     <br/><br/>
                 </form>
         
